@@ -1,6 +1,9 @@
 import streamlit as st
 import random
 
+#page setup
+st.set_page_config(page_title="GuesGame",page_icon="🌟")
+
 #title
 st.title("Gues the number2")
 st.subheader("In how many tries can you guess the number? :sunglasses:")
