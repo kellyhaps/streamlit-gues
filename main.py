@@ -124,10 +124,10 @@ if "win" in st.session_state:
 
 	#To high
 	if win > 0:
-		placeholder2.write(f"You guesed to high! - {st.session_state.gues_count}")
+		placeholder2.write(f"You guesed to high! - {st.session_state.gues_count} number is; {st.session_state.random_number}")
 	#To low
 	if win < 0:
-		placeholder2.write(f"You guesed to low!- {st.session_state.gues_count}")
+		placeholder2.write(f"You guesed to low!- {st.session_state.gues_count} number is; {st.session_state.random_number}")
 
 else:
 	#create a count
